@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding-top: 500px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 500px;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 80px;
+
+}
+
+h1 {
+    font-family: 'Hina Mincho', serif;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#spantag {
+    font-family: 'Hina Mincho', serif;
+}
+
+h2 {
+    font-family: 'Hina Mincho', serif;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+#bio {
+    padding: 30px;
+    z-index: text-align:center;
+    font-size: 40px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 700px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.7;
+    margin: 25px auto;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+.list {
+    float: left;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: cursive;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.list:hover {
+    background-color: aquamarine;
+}
