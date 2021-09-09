@@ -87,3 +87,24 @@ p {
 .list:hover {
     background-color: aquamarine;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.anchor:hover {
+    background-color: cyan;
+}
+
+#video {
+    margin-left: 100px;
+}
+
+#work {
+    margin-left: 100px;
+}
+
+#Writing {
+   text-align: center;
+}
+
