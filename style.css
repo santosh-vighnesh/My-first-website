@@ -65,7 +65,7 @@ p {
 
 .menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 10px;
     cursor: pointer;
@@ -97,11 +97,11 @@ html {
 }
 
 #video {
-    margin-left: 100px;
+    text-align: center;
 }
 
 #work {
-    margin-left: 100px;
+    text-align: center;
 }
 
 #Writing {
